@@ -1,0 +1,241 @@
+body {
+    font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 20px;
+    /* underline */
+    text-decoration: underline;
+    padding: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#report-output {
+    margin-top: 20px;
+}
+
+/*                  Menu                  */
+
+
+.all-tabs {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.tab {
+    border-style: solid;
+    border-color: rgb(0, 0, 0, 0.2);
+    border-bottom-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.tablast {
+    border-style: solid;
+    border-color: rgb(0, 0, 0, 0.2);
+    border-bottom-style: none;
+    border-top-style: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.6;
+    color: #007bff;
+}
+
+/*                  Tables du Market                  */
+
+
+/* Style for the container of the tables */
+.full-tables-container {
+    display: flex;
+    /* Use flexbox to arrange items horizontally */
+    justify-content: space-between;
+    /* Space items evenly along the main axis */
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+/* Style for individual tables */
+.table-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    border: black 3px solid;
+    color: #fff;
+}
+
+.table-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    border: black 3px solid;
+    color: #fff;
+}
+
+.table-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+    background-color: green;
+    padding: 20px;
+    border-radius: 5px;
+    border: black 3px solid;
+    color: #fff;
+}
+
+/*                  Dates                  */
+
+.dates-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*                  Table du Portfolio                  */
+
+
+/* Style for individual tables */
+.portfolio-information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 15px;
+    border: black 3px solid;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+/*                  Table du Rebalancing Information                  */
+
+.rebalancing-information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: 1;
+    margin-right: 10px;
+    background-color: #cc8cff;
+    padding: 20px;
+    border-radius: 15px;
+    border: black 3px solid;
+
+    margin-bottom: 50px;
+
+    color: #fff;
+}
+
+.rebalancing-and-stats-container {
+    display: flex;
+}
+
+.stats-container {
+    color: #fff;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.stats-container h4 {
+    padding: 0px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.pnl-container {
+    background-color: #7334a7;
+    border-radius: 10px;
+    border: black 3px solid;
+    padding: 20px;
+    margin: 5px;
+}
+
+.value-container {
+    background-color: #9f34a7;
+    border-radius: 10px;
+    border: black 3px solid;
+    padding: 20px;
+    margin: 5px;
+}
+
+.liquidity-container {
+    background-color: #a7348e;
+    border-radius: 10px;
+    border: black 3px solid;
+    padding: 20px;
+    margin: 5px;
+}
+
+#rebalance-button {
+    background-color: #cc8cff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#rebalance-button:hover {
+    background-color: #7334a7;
+}

@@ -1,0 +1,82 @@
+{
+    "CurrentDate": 14,
+    "DomesticCurrencyId": "eur",
+    "DomesticInterestRate": 0.0458,
+    "Assets": [
+        {
+            "CurrencyId": "eur",
+            "Volatility": 0.015242630048286751
+        },
+        {
+            "CurrencyId": "us_dollar",
+            "Volatility": 0.03137579137407769
+        },
+        {
+            "CurrencyId": "hk_dollar",
+            "Volatility": 0.06635816084214051
+        }
+    ],
+    "Currencies": [
+        {
+            "CurrencyId": "us_dollar",
+            "Volatility": 0.018115358226936783,
+            "ForeignInterestRate": 0.0669
+        },
+        {
+            "CurrencyId": "hk_dollar",
+            "Volatility": 0.004126770659036117,
+            "ForeignInterestRate": 0.0632
+        }
+    ],
+    "NumberOfDaysInYears": 252,
+    "FixingDatesInDays": {
+        "DatesInDays": [
+            0,
+            259,
+            519,
+            780,
+            1042,
+            1304
+        ],
+        "MaturityInDays": 1304
+    },
+    "Correlations": [
+        [
+            1.0,
+            0.30875128343327546,
+            0.417093374843173,
+            0.5793344672639481,
+            0.5760953072082485
+        ],
+        [
+            0.30875128343327546,
+            1.0,
+            0.25199699228103845,
+            0.13462387448305654,
+            0.1279785761635231
+        ],
+        [
+            0.417093374843173,
+            0.25199699228103845,
+            1.0,
+            -0.2818724944976496,
+            -0.2851972120647719
+        ],
+        [
+            0.5793344672639481,
+            0.13462387448305654,
+            -0.2818724944976496,
+            1.0,
+            0.9998903974802227
+        ],
+        [
+            0.5760953072082485,
+            0.1279785761635231,
+            -0.2851972120647719,
+            0.9998903974802227,
+            1.0
+        ]
+    ],
+    "SampleNb": 50000,
+    "RelativeFiniteDifferenceStep": 0.1
+}
